@@ -1,0 +1,4 @@
+1. import custom fonts
+2. output list of skills
+3. Add picture of college
+4. Add address of college
