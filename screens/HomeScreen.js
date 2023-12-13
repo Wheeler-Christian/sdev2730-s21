@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from "react-native";
 function HomeScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Home Screen</Text>
+      <Text style={styles.h1}>Christian Wheeler</Text>
       <Text style={styles.text}>
         I am a student at Davis Technical College, studying Software
         Development. My goal is to become a software engineer.
@@ -20,16 +20,19 @@ const styles = StyleSheet.create({
     backgroundColor: "#222",
     alignItems: "center",
   },
-  title: {
+  h1: {
     color: "#eee",
     margin: 24,
     fontSize: 24,
+    fontWeight: "bold",
     textAlign: "center",
+    fontFamily: "noto-sans",
   },
   text: {
     color: "#eee",
-    fontSize: 18,
-    marginHorizontal: 24,
+    fontSize: 16,
+    marginHorizontal: 28,
     textAlign: "left",
+    fontFamily: "ubuntu-regular",
   },
 });
